@@ -4,6 +4,18 @@ body {
     align-items: center;
     height: 90vh;
     background-color: rgb(189, 225, 122);
+    /* opacity: 0; */
+    animation: fadeIn 5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 #noButton {
